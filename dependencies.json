@@ -1,17 +1,21 @@
 [ {
   "name" : "SalesForce",
   "version" : "1.8",
-  "artifactType" : "PREFAB"
-}, {
-  "name" : "clear-glass",
-  "version" : "1.0",
-  "artifactType" : "THEME"
+  "artifactType" : "PREFAB",
+  "artifactDependencyList" : null
 }, {
   "name" : "googlemaps",
   "version" : "6.2",
-  "artifactType" : "PREFAB"
+  "artifactType" : "PREFAB",
+  "artifactDependencyList" : null
 }, {
   "name" : "youtube",
   "version" : "2.6",
-  "artifactType" : "PREFAB"
+  "artifactType" : "PREFAB",
+  "artifactDependencyList" : null
+}, {
+  "name" : "orange-white",
+  "version" : "1.0",
+  "artifactType" : "THEME",
+  "artifactDependencyList" : null
 } ]

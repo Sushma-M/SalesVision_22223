@@ -1,5 +1,5 @@
 var _WM_APP_PROPERTIES = {
-  "activeTheme" : "clear-glass",
+  "activeTheme" : "orange-white",
   "defaultLanguage" : "en",
   "displayName" : "SalesVision_3",
   "homePage" : "Main",
