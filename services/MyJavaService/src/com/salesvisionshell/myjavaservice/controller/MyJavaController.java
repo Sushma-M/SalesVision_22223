@@ -23,9 +23,7 @@ public class MyJavaController {
     private MyJavaService myJavaService;
 
     @RequestMapping(value = "/sampleJavaOperation", produces = "application/json", method = RequestMethod.GET)
-    @WMAccessVisibility(value = AccessSpecifier.APP_ONLY)
-    @ApiOperation(value = "")
-    public String sampleJavaOperation(@RequestParam(value = "name", required = false) String name, HttpServletRequest request) {
-        return myJavaService.sampleJavaOperation(name, request);
+    public String sampleJavaOperation(@RequestParam(value = "name", required = false) String name, @RequestParam(value = "i", required = false) int i, HttpServletRequest request) {
+        return myJavaService.sampleJavaOperation(name, i, request);
     }
 }
